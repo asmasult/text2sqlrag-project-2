@@ -74,7 +74,7 @@ RUN chmod -R 755 ${LAMBDA_TASK_ROOT}/app && \
 #
 # To rebuild base image (only when system deps change):
 #   ./build-base-image.sh
-# below was Pauls ecr - repo - arn
+# below was Pauls ecr - repo - url - change to my login value
 # FROM 685057748560.dkr.ecr.us-east-1.amazonaws.com/lambda-python-deps:3.12
 FROM 283008307020.dkr.ecr.us-east-1.amazonaws.com/lambda-python-deps:3.12
 # Copy everything from builder stage (permissions already fixed)
